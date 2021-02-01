@@ -1,0 +1,4 @@
+LOG_LEVEL: DEBUG
+WEBANK_DEBUG: False
+MONGO_URL: mongodb://127.0.0.1:27017/rqams?authSource=admin
+RQDATAC_CONF:  tcp://rice:rice@127.0.0.1:16001

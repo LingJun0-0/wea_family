@@ -1,0 +1,13 @@
+-c requirements_fix.txt
+
+click
+Flask
+numpy
+pandas
+pyyaml
+gunicorn
+jsonschema
+bson
+pymongo
+
+

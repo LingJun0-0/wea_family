@@ -1,0 +1,12 @@
+include webank-api-server/*
+include webank-api-server/etc/*.yaml
+include requirements.txt
+
+include README.md
+include HISTORY.md
+include versioneer.py
+
+recursive-exclude tests *
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
+include webank_api_server/_version.py
